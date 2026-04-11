@@ -1,6 +1,8 @@
 # 💫 About Me:
 CS student | Python & C | Linux | Cybersecurity learner | Building labs, breaking things safely, and documenting everything.
 
+https://deepwiki.com/Matrix07ksa/Brute_Force/3-installation-and-setup
+
 
 ## 🌐 Socials:
 [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://pinterest.com/Creativia) [![Mastodon](https://img.shields.io/badge/-MASTODON-%232B90D9?logo=mastodon&logoColor=white)](https://mastodon.social/@cartoonist-q4f) 
