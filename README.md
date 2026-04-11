@@ -1,7 +1,7 @@
 # 💫 About Me:
 CS student | Python & C | Linux | Cybersecurity learner | Building labs, breaking things safely, and documenting everything.
 
-https://deepwiki.com/Matrix07ksa/Brute_Force/3-installation-and-setup
+
 
 
 ## 🌐 Socials:
