@@ -1,11 +1,57 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:000000,50:00f5ff,100:000000&height=200&section=header&text=MoNsT3R-code&fontSize=60&fontColor=ffffff&fontAlignY=45&desc=I%20don't%20wait%20for%20opportunities.%20I%20build%20them.&descAlignY=68&descSize=15&descColor=00f5ff&animation=fadeIn" />
+  <svg width="100%" height="220" viewBox="0 0 1000 220" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="blobGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#000000" />
+        <stop offset="50%" stop-color="#00f5ff" />
+        <stop offset="100%" stop-color="#000000" />
+      </linearGradient>
+      <style>
+        @keyframes morphLiquid {
+          0% {
+            d: path("M450,40 C550,20 680,50 720,110 C760,170 620,190 500,195 C380,200 260,180 240,130 C220,80 350,60 450,40 Z");
+          }
+          25% {
+            d: path("M450,50 C580,10 700,40 740,100 C780,160 600,170 520,190 C440,210 290,200 250,140 C210,80 320,90 450,50 Z");
+          }
+          50% {
+            d: path("M450,35 C530,30 650,20 710,90 C770,160 650,200 500,200 C350,200 230,160 230,110 C230,60 370,40 450,35 Z");
+          }
+          75% {
+            d: path("M450,45 C560,25 670,60 730,120 C790,180 590,180 480,190 C370,200 280,170 260,120 C240,70 340,65 450,45 Z");
+          }
+          100% {
+            d: path("M450,40 C550,20 680,50 720,110 C760,170 620,190 500,195 C380,200 260,180 240,130 C220,80 350,60 450,40 Z");
+          }
+        }
+        @keyframes textReveal {
+          0% { opacity: 0; transform: translateY(5px); }
+          100% { opacity: 1; transform: translateY(0); }
+        }
+        .organic-blob {
+          animation: morphLiquid 6s ease-in-out infinite;
+          transition: all 1s ease-in-out;
+        }
+        .banner-text {
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+          animation: textReveal 1.2s ease-out forwards;
+        }
+      </style>
+    </defs>
+    <rect width="1000" height="220" fill="#0b0f17" rx="10"/>
+    <path class="organic-blob" fill="url(#blobGrad)" opacity="0.85" />
+    <g text-anchor="middle" font-weight="900" fill="#ffffff">
+      <text x="500" y="115" class="banner-text" font-size="58" letter-spacing="-1px">MoNsT3R-code</text>
+      <text x="500" y="155" class="banner-text" font-size="14" font-weight="700" fill="#00f5ff" letter-spacing="1">I don't wait for opportunities. I build them.</text>
+    </g>
+  </svg>
+  <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2500&pause=1000&color=00F5FF&center=true&vCenter=true&width=600&lines=CS+Student+%40+FCCU+%F0%9F%8E%93+%7C+Lahore+%F0%9F%87%B5%F0%9F%87%B0;Python+%7C+HTML5+%7C+CSS3+%7C+JavaScript+%7C+PowerShell+%7C+PHP+%7C+R;Cybersecurity+%26+AI+Explorer;Founder+Mindset+%E2%9A%A1+Builder+Always)](https://git.io/typing-svg)
+  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2500&pause=1000&color=00F5FF&center=true&vCenter=true&width=600&lines=CS+Student+%40+FCCU+%F0%9F%8E%93+%7C+Lahore+%F0%9F%87%B5%F0%9F%87%B0;Python+%7C+HTML5+%7C+CSS3+%7C+JavaScript+%7C+PowerShell+%7C+PHP+%7C+R;Cybersecurity+%26+AI+Explorer;Founder+Mindset+%E2%9A%A1+Builder+Always)](https://git.io/typing-svg)
 
-[![Profile Views](https://komarev.com/ghpvc/?username=MoNsT3R-code&style=flat-square&color=00f5ff&label=PROFILE+VIEWS)](https://github.com/MoNsT3R-code)
-[![GitHub followers](https://img.shields.io/github/followers/MoNsT3R-code?style=flat-square&color=00f5ff&labelColor=0d1117&label=FOLLOWERS)](https://github.com/MoNsT3R-code?tab=followers)
+  [![Profile Views](https://komarev.com/ghpvc/?username=MoNsT3R-code&style=flat-square&color=00f5ff&label=PROFILE+VIEWS)](https://github.com/MoNsT3R-code)
+  [![GitHub followers](https://img.shields.io/github/followers/MoNsT3R-code?style=flat-square&color=00f5ff&labelColor=0d1117&label=FOLLOWERS)](https://github.com/MoNsT3R-code?tab=followers)
 
 </div>
 ---
