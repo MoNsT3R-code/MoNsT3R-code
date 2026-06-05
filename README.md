@@ -1,166 +1,174 @@
 <p align="center">
-  <svg width="100%" height="450" viewBox="0 0 1000 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MoNsT3R-code         professional animated banner">
+  <svg width="100%" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MoNsT3R-code banner">
     <defs>
-      <linearGradient id="topBorderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#00eaff" />
-        <stop offset="50%" stop-color="#9d4edd" />
-        <stop offset="100%" stop-color="#7209b7" />
+      <!-- Background gradient -->
+      <linearGradient id="bgGrad" x1="0" x2="1">
+        <stop offset="0%" stop-color="#071023"/>
+        <stop offset="100%" stop-color="#071a2b"/>
       </linearGradient>
-    <linearGradient id="cryptoMesh" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00eaff" stop-opacity="0.8"/>
-      <stop offset="50%" stop-color="#a200ff" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#005f73" stop-opacity="0.2"/>
-    </linearGradient>
-      <style>
-    .fade-in-line {
-      opacity: 0;
-      animation: revealLine 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
-    }
-    
-    /* Sequential Delays to display them one line by one */
-    .delay-1 { animation-delay: 0.5s; }
-    .delay-2 { animation-delay: 1.8s; }
-    .delay-3 { animation-delay: 3.1s; }
-    .delay-4 { animation-delay: 4.4s; }
-    .delay-5 { animation-delay: 5.7s; }
-    .delay-6 { animation-delay: 7.0s; }
-    .delay-7 { animation-delay: 8.3s; }
-
-    @keyframes revealLine {
-      0% {
-        opacity: 0;
-        transform: translateY(10px);
-      }
-      100% {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-  </style>
-</defs>
-
-<rect width="1000" height="450" fill="#0b0f17"/>
-
-<rect x="0" y="0" width="1000" height="6" fill="url(#topBorderGrad)"/>
-
-<g transform="translate(500, 160) scale(1.1)" stroke="url(#cryptoMesh)" stroke-width="2.5" fill="none" opacity="0.35">
-  <polygon points="0,-80 69,-40 69,40 0,80 -69,40 -69,-40" stroke-width="3" />
-  <polygon points="0,-80 0,80" />
-  <polygon points="-69,-40 69,40" />
-  <polygon points="-69,40 69,-40" />
-  <polygon points="0,-45 40,-15 40,35 0,65 -40,35 -40,-15" />
-  <line x1="0" y1="-80" x2="0" y2="-45" />
-  <line x1="69" y1="-40" x2="40" y2="-15" />
-  <line x1="69" y1="40" x2="40" y2="35" />
-  <line x1="0" y1="80" x2="0" y2="65" />
-  <line x1="-69" y1="40" x2="-40" y2="35" />
-  <line x1="-69" y1="-40" x2="-40" y2="-15" />
-</g>
-
-<text x="500" y="175" text-anchor="middle" 
-      font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" 
-      font-weight="900" font-size="90" fill="#ffffff" letter-spacing="-1px">
-  MoNsT3R-code
-</text>
-
-<g id="animatedTechStack" font-family="'Courier New', Courier, monospace" font-weight="bold" font-size="15" fill="#00eaff" letter-spacing="1">
-  
-  <text x="500" y="230" text-anchor="middle" class="fade-in-line delay-1">
-    Languages: C | HTML5 | CSS3 | JavaScript | PowerShell | PHP | Python | R
-  </text>
-
-  <text x="500" y="255" text-anchor="middle" class="fade-in-line delay-2">
-    Servers: Apache | Apache Tomcat
-  </text>
-
-  <text x="500" y="280" text-anchor="middle" class="fade-in-line delay-3">
-    Databases: Microsoft SQL Server | MariaDB | MySQL | PostgreSQL
-  </text>
-
-  <text x="500" y="305" text-anchor="middle" class="fade-in-line delay-4">
-    Design: Adobe Acrobat Reader | Adobe Illustrator | Adobe | Canva
-  </text>
-
-  <text x="500" y="330" text-anchor="middle" class="fade-in-line delay-5">
-    Data Science: Matplotlib | NumPy | Pandas | Plotly | PyTorch | Scikit-Learn | SciPy | TensorFlow
-  </text>
-
-  <text x="500" y="355" text-anchor="middle" class="fade-in-line delay-6">
-    Version Control: Git | GitHub
-  </text>
-
-  <text x="500" y="380" text-anchor="middle" class="fade-in-line delay-7" fill="#ff9f1c">
-    Security: Tor Project | PortSwigger Labs
-  </text>
-</g>
-
-<g transform="translate(325, 410)">
-  <rect x="0" y="0" width="112" height="26" fill="none" stroke="#00eaff" stroke-width="1.5"/>
-  <text x="56" y="17" text-anchor="middle" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="900" letter-spacing="0.5">PROFILE VIEWS</text>
-  <rect x="112" y="0" width="53" height="26" fill="#00eaff"/>
-  <text x="138.5" y="18" text-anchor="middle" fill="#0b0f17" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="900">12.5K</text>
-
-  <rect x="185" y="0" width="95" height="26" fill="none" stroke="#00eaff" stroke-width="1.5"/>
-  <text x="232.5" y="17" text-anchor="middle" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="900" letter-spacing="0.5">FOLLOWERS</text>
-  <rect x="280" y="0" width="50" height="26" fill="#00eaff"/>
-  <text x="305" y="18" text-anchor="middle" fill="#0b0f17" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="900">1.3K</text>
-</g>
-
-<path d="M 940 400 Q 940 415 955 415 Q 940 415 940 430 Q 940 415 925 415 Q 940 415 940 400 Z" fill="#8b949e" opacity="0.6"/>
+      <!-- Colorful animated gradient for text -->
+      <linearGradient id="textGrad">
+        <stop offset="0%" stop-color="#00eaff" id="t0"/>
+        <stop offset="50%" stop-color="#8a2be2" id="t1"/>
+        <stop offset="100%" stop-color="#ff5fa2" id="t2"/>
+      </linearGradient>
+      <!-- Soft blurred backdrop -->
+      <filter id="softBlur" x="-30%" y="-30%" width="160%" height="160%">
+        <feGaussianBlur stdDeviation="12" result="blur"/>
+        <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <!-- Drop shadow for text -->
+      <filter id="ds" x="-50%" y="-50%" width="200%" height="200%">
+        <feOffset dx="0" dy="6" result="off"/>
+        <feGaussianBlur in="off" stdDeviation="10" result="blur2"/>
+        <feFlood flood-color="#000000" flood-opacity="0.45"/>
+        <feComposite in2="blur2" operator="in"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <!-- animated blob path as background -->
+      <radialGradient id="blobGrad" cx="50%" cy="35%">
+        <stop offset="0%" stop-color="#00EAFF" stop-opacity="0.18"/>
+        <stop offset="60%" stop-color="#8A2BE2" stop-opacity="0.12"/>
+        <stop offset="100%" stop-color="#FF5FA2" stop-opacity="0"/>
+      </radialGradient>
+      <!-- Animate color stops (SMIL) -->
+      <animate xlink:href="#t0" attributeName="stop-color" values="#00eaff;#00ff9c;#00eaff" dur="6s" repeatCount="indefinite"/>
+      <animate xlink:href="#t1" attributeName="stop-color" values="#8a2be2;#ff5fa2;#8a2be2" dur="6s" repeatCount="indefinite"/>
+      <animate xlink:href="#t2" attributeName="stop-color" values="#ff5fa2;#00eaff;#ff5fa2" dur="6s" repeatCount="indefinite"/>
+    </defs>
+    <!-- background -->
+    <rect width="1200" height="320" fill="url(#bgGrad)"/>
+    <!-- animated colorful background blobs -->
+    <g filter="url(#softBlur)" opacity="0.9">
+      <circle cx="920" cy="80" r="160" fill="url(#blobGrad)">
+        <animate attributeName="cx" dur="10s" values="920;1020;900;920" repeatCount="indefinite"/>
+        <animate attributeName="cy" dur="12s" values="80;60;100;80" repeatCount="indefinite"/>
+        <animate attributeName="r" dur="8s" values="160;130;170;160" repeatCount="indefinite"/>
+      </circle>
+      <ellipse cx="260" cy="160" rx="220" ry="120" fill="#062a44" opacity="0.55">
+        <animate attributeName="rx" dur="12s" values="220;240;200;220" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+    <!-- translucent rounded backdrop behind name -->
+    <rect x="120" y="68" rx="22" ry="22" width="960" height="120" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.03)" />
+    <g filter="url(#softBlur)" opacity="0.06">
+      <rect x="140" y="80" rx="18" width="920" height="96" fill="url(#blobGrad)"/>
+    </g>
+    <!-- Main username (very large, centered) -->
+    <text x="50%" y="140" text-anchor="middle" dominant-baseline="middle"
+          font-family="'Inter', 'Montserrat', 'Segoe UI', system-ui, -apple-system, Arial"
+          font-size="86" font-weight="900"
+          fill="url(#textGrad)" filter="url(#ds)" style="letter-spacing: -2px;">
+      MoNsT3R-code
+    </text>
+    <!-- underline accent (animated) -->
+    <line x1="360" x2="840" y1="170" y2="170" stroke="url(#textGrad)" stroke-width="6" stroke-linecap="round" opacity="0.9">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="4s" repeatCount="indefinite"/>
+    </line>
+    <!-- Tagline -->
+    <text x="50%" y="200" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" fill="#bfc9d6" opacity="0.95">
+      I don't wait for opportunities. I <tspan fill="#00eaff" font-weight="700">build</tspan> them.
+    </text>
+    <!-- Tech badges (widgets) from shields.io -->
+    <g transform="translate(420,220)" style="cursor:default">
+      <image href="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" x="0" y="-6" width="160" height="34"/>
+      <image href="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" x="170" y="-6" width="160" height="34"/>
+      <image href="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" x="340" y="-6" width="160" height="34"/>
+    </g>
+    <!-- small floating particles for subtle motion -->
+    <g fill="#00eaff" opacity="0.06">
+      <circle cx="110" cy="40" r="6">
+        <animate attributeName="cy" dur="8s" values="40;20;40" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1060" cy="60" r="4">
+        <animate attributeName="cx" dur="9s" values="1060;1080;1060" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="700" cy="30" r="5">
+        <animate attributeName="cy" dur="7s" values="30;10;30" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <!-- subtle hover hint (if supported) -->
+    <style>
+      svg:hover text { transform-origin: 50% 50%; transform-box: fill-box; transition: transform 0.35s ease; }
+      svg:hover text:first-of-type { transform: scale(1.02); }
+    </style>
   </svg>
 </p>
 
+---
 
-# 💫 About Me:
-🎓 Academic Path: Computer Science student passionate about backend systems, AI solutions, and software architecture.<br><br>💻 What I Build: Everything from complex Data Structures & Algorithms labs to full-stack web platforms and interactive 3D simulations.<br><br>🛡️ What I Break: Actively studying cybersecurity, configuring secure Linux environments, and working through web application vulnerabilities on PortSwigger.<br><br>⚡ Core Philosophy: "The best way to understand a complex system is to build it yourself, test its limits, and leave no edge case undocumented."
+# 💫 About Me
+🎓 Computer Science student focused on backend systems, AI, secure software engineering and practical cybersecurity. I build full‑stack platforms, interactive 3D simulations and homelabs — then harden and document them.
 
-
-## 🌐 Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/monst3r12e_24793) 
-
-# 💻 Tech Stack:
-
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
-![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
-
-![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white)
-![Apache Tomcat](https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=for-the-badge&logo=apache-tomcat&logoColor=black)
-
-![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
-![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-
-![Adobe Acrobat Reader](https://img.shields.io/badge/Adobe%20Acrobat%20Reader-EC1C24.svg?style=for-the-badge&logo=Adobe%20Acrobat%20Reader&logoColor=white)
-![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=for-the-badge&logo=adobe%20illustrator&logoColor=white)
-![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
-
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
-
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-
-![TOR](https://img.shields.io/badge/tor-%237E4798.svg?style=for-the-badge&logo=tor-project&logoColor=white)
-![PortSwigger](https://img.shields.io/badge/PortSwigger-Labs-orange?style=for-the-badge&logo=burpsuite&logoColor=white)
-
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=MoNsT3R-code&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://streak-stats.demolab.com/?user=MoNsT3R-code&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=MoNsT3R-code&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+**Core:** DevSecOps mindset · Linux · Web security · Documentation-first approach
 
 ---
-[![](https://komarev.com/ghpvc/?username=MoNsT3R-code&icon=2&color=0)](https://visitcount.itsvg.in)
+
+## 🌐 Socials
+[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/monst3r12e_24793)  
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MoNsT3R-code)
+
+---
+
+## 💻 Tech Stack
+
+<!-- Languages / Core -->
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+
+<!-- Web / Frontend -->
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+
+<!-- Backend / Databases -->
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Postgres](https://img.shields.io/badge/Postgres-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
+
+<!-- AI / Data -->
+![Jupyter](https://img.shields.io/badge/Jupyter-F37726?style=for-the-badge&logo=jupyter&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+
+<!-- Security & Tools -->
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6B35?style=for-the-badge&logo=portswigger&logoColor=white)
+
+---
+
+## 🚀 Featured Projects
+- [EduQuest-AI-Platform](https://github.com/MoNsT3R-code/EduQuest-AI-Platform) — AI learning & interactive Jupyter notebooks  
+- [fintech-tycoon-game](https://github.com/MoNsT3R-code/fintech-tycoon-game) — 3D FinTech educational game (Three.js)  
+- [WaqfApp](https://github.com/MoNsT3R-code/WaqfApp) — Full‑stack TypeScript application  
+- [scientific-calculator-app](https://github.com/MoNsT3R-code/scientific-calculator-app) — SPA: calculator, notes, and graph plotter
+
+---
+
+## 📊 GitHub Stats
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=MoNsT3R-code&theme=dark&show_icons=true&count_private=true" alt="GitHub stats" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MoNsT3R-code&theme=dark&layout=compact" alt="Top languages" />
+  <br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=MoNsT3R-code&theme=dark" alt="GitHub streak" />
+</div>
+
+---
+
+[![Profile views](https://komarev.com/ghpvc/?username=MoNsT3R-code&color=0)](https://komarev.com/)
+
+---
+
+### Notes / Upload tips
+- Paste this into README.md directly (do NOT leave it inside triple-backtick code fences in README — that causes it to render as code).
+- GitHub may sanitize some SVG features (filters/SMIL animations). If animation or glow is stripped, save the SVG as `assets/banner.svg` and embed it with:
+  `<img src="./assets/banner.svg" alt="MoNsT3R-code banner" />`
+- If you want, I can create and commit `assets/banner.svg` and a PNG fallback to your repo — say "commit banner" and I will prepare and push the files for you.
