@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,50:00f5ff,100:000000&height=200&section=header&text=MoNsT3R-c%20ode&fontSize=60&fontColor=ffffff&fontAlignY=45&desc=I%20don't%20wait%20for%20opportunities.%20I%20build%20them.&descAlignY=68&descSize=15&descColor=00f5ff&animation=fadeIn" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2500&pause=1000&color=00F5FF&center=true&vCenter=true&width=600&lines=CS+Student+%40+FCCU+%F0%9F%8E%93+%7C+Lahore+%F0%9F%87%B5%F0%9F%87%B0;Python+%7C+Django+%7C+React+%7C+Next.js;Cybersecurity+%26+AI+Explorer;Founder+Mindset+%E2%9A%A1+Builder+Always)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2500&pause=1000&color=00F5FF&center=true&vCenter=true&width=600&lines=CS+Student+%40+FCCU+%F0%9F%8E%93+%7C+Lahore+%F0%9F%87%B5%F0%9F%87%B0;Python+%7C+HTML5+%7C+CSS3+%7C+JavaScript+%7C+PowerShell+%7C+PHP+%7C+R;Cybersecurity+%26+AI+Explorer;Founder+Mindset+%E2%9A%A1+Builder+Always)](https://git.io/typing-svg)
 
 [![Profile Views](https://komarev.com/ghpvc/?username=MoNsT3R-code&style=flat-square&color=00f5ff&label=PROFILE+VIEWS)](https://github.com/MoNsT3R-code)
 [![GitHub followers](https://img.shields.io/github/followers/MoNsT3R-code?style=flat-square&color=00f5ff&labelColor=0d1117&label=FOLLOWERS)](https://github.com/MoNsT3R-code?tab=followers)
