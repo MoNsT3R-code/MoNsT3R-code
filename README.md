@@ -1,25 +1,28 @@
-<h1 align="center">
-  <span style="
-    font-size: 60px;
-    font-weight: 800;
-    color: #00eaff;
-    text-shadow:
-      0 0 10px #00eaff,
-      0 0 20px #00eaff,
-      0 0 40px #00eaff,
-      0 0 80px #00eaff;
-  ">
-    MoNsT3R-code
-  </span>
-</h1>
+<p align="center">
+  <svg width="100%" height="150">
+    <defs>
+      <linearGradient id="glowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#00eaff"/>
+        <stop offset="100%" stop-color="#00b7ff"/>
+      </linearGradient>
 
-<h3 align="center" style="
-  color: #00eaff;
-  font-weight: 500;
-  text-shadow:
-    0 0 10px #00eaff,
-    0 0 20px #00eaff;
-">
+      <filter id="glow">
+        <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+        <feMerge>
+          <feMergeNode in="coloredBlur"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+    </defs>
+
+    <text x="50%" y="50%" text-anchor="middle"
+      style="font-size: 60px; font-weight: 800; fill: url(#glowGradient); filter: url(#glow);">
+      MoNsT3R-code
+    </text>
+  </svg>
+</p>
+
+<h3 align="center" style="color:#00eaff;">
   Cybersecurity & AI Explorer
 </h3>
 
