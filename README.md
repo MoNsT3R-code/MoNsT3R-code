@@ -1,11 +1,14 @@
 <p align="center">
   <svg width="100%" height="150">
     <defs>
+
+      <!-- BLUE NEON GRADIENT -->
       <linearGradient id="glowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
         <stop offset="0%" stop-color="#00eaff"/>
         <stop offset="100%" stop-color="#00b7ff"/>
       </linearGradient>
 
+      <!-- GLOW FILTER -->
       <filter id="glow">
         <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
         <feMerge>
@@ -13,23 +16,18 @@
           <feMergeNode in="SourceGraphic"/>
         </feMerge>
       </filter>
+
     </defs>
 
+    <!-- GLOWING TEXT -->
     <text x="50%" y="50%" text-anchor="middle"
       style="font-size: 60px; font-weight: 800; fill: url(#glowGradient); filter: url(#glow);">
       MoNsT3R-code
     </text>
+
   </svg>
 </p>
 
-<h3 align="center" style="color:#00eaff;">
-  Cybersecurity & AI Explorer
-</h3>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=MoNsT3R-code&label=PROFILE+VIEWS&color=0e75b6&style=flat" />
-  <img src="https://img.shields.io/github/followers/MoNsT3R-code?label=FOLLOWERS&style=flat&color=brightgreen" />
-</p>
 
 
 # 💫 About Me:
