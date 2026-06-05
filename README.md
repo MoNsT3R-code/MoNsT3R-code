@@ -1,67 +1,67 @@
-# <div align="center">
-# 
-# ![MoNsT3R Banner](https://img.shields.io/badge/MoNsT3R--code-000000?style=flat)
-# 
-# <svg width="100%" height="250" viewBox="0 0 900 250" xmlns="http://www.w3.org/2000/svg">
-#   <defs>
-#     <!-- Dark background -->
-#     <rect width="900" height="250" fill="#0d1117"/>
-#     
-#     <!-- Cyan glow -->
-#     <radialGradient id="cyanGlow" cx="50%" cy="40%">
-#       <stop offset="0%" stopColor="#00eaff" stopOpacity="0.6"/>
-#       <stop offset="100%" stopColor="#00b7ff" stopOpacity="0.2"/>
-#     </radialGradient>
-#     
-#     <!-- Glow filter -->
-#     <filter id="textGlow">
-#       <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
-#       <feMerge>
-#         <feMergeNode in="coloredBlur"/>
-#         <feMergeNode in="SourceGraphic"/>
-#       </feMerge>
-#     </filter>
-#   </defs>
-#   
-#   <!-- Background -->
-#   <rect width="900" height="250" fill="#0d1117"/>
-#   
-#   <!-- Cyan orb glow -->
-#   <circle cx="650" cy="80" r="120" fill="url(#cyanGlow)"/>
-#   
-#   <!-- Main name -->
-#   <text x="450" y="90" textAnchor="middle" style="font-size: 72px; font-weight: 900; fill: #ffffff; font-family: 'Segoe UI', Arial, sans-serif; filter: url(#textGlow);">
-#     MoNsT3R-code
-#   </text>
-#   
-#   <!-- Tagline -->
-#   <text x="450" y="135" textAnchor="middle" style="font-size: 20px; fill: #cccccc; font-family: 'Segoe UI', Arial, sans-serif;">
-#     I don't wait for opportunities. I
-#     <tspan style="fill: #00eaff; font-weight: bold;">build</tspan> them.
-#   </text>
-#   
-#   <!-- Tech stack -->
-#   <text x="450" y="185" textAnchor="middle" style="font-size: 16px; fill: #00eaff; font-family: 'Courier New', monospace; letter-spacing: 2px;">
-#     Python | JavaScript | TypeScript | Linux | Security
-#   </text>
-#   
-#   <!-- Stats badges -->
-#   <g>
-#     <!-- Profile views badge -->
-#     <rect x="280" y="210" width="140" height="25" fill="#2d333b" rx="3"/>
-#     <text x="290" y="227" style="font-size: 12px; fill: #8b949e; font-family: 'Courier New', monospace;">PROFILE VIEWS</text>
-#     <rect x="340" y="210" width="60" height="25" fill="#00eaff" rx="3"/>
-#     <text x="370" y="227" textAnchor="middle" style="font-size: 14px; font-weight: bold; fill: #0d1117; font-family: 'Courier New', monospace;">12.5K</text>
-#     
-#     <!-- Followers badge -->
-#     <rect x="480" y="210" width="140" height="25" fill="#2d333b" rx="3"/>
-#     <text x="490" y="227" style="font-size: 12px; fill: #8b949e; font-family: 'Courier New', monospace;">FOLLOWERS</text>
-#     <rect x="540" y="210" width="60" height="25" fill="#00eaff" rx="3"/>
-#     <text x="570" y="227" textAnchor="middle" style="font-size: 14px; font-weight: bold; fill: #0d1117; font-family: 'Courier New', monospace;">1.3K</text>
-#   </g>
-# </svg>
-# 
-# </div>
+<p align="center">
+  <svg width="100%" height="250" viewBox="0 0 900 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MoNsT3R-code banner">
+    <defs>
+      <!-- Cyan glow gradient -->
+      <radialGradient id="cyanGlow" cx="50%" cy="40%">
+        <stop offset="0%" stop-color="#00eaff" stop-opacity="0.6"/>
+        <stop offset="100%" stop-color="#00b7ff" stop-opacity="0.2"/>
+      </radialGradient>
+
+      <!-- Glow filter (expanded bounds so blur isn't clipped) -->
+      <filter id="textGlow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+        <feMerge>
+          <feMergeNode in="coloredBlur"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+    </defs>
+
+    <!-- Background -->
+    <rect width="900" height="250" fill="#0d1117"/>
+
+    <!-- Cyan orb glow -->
+    <circle cx="650" cy="80" r="120" fill="url(#cyanGlow)" />
+
+    <!-- Main name -->
+    <text x="450" y="95" text-anchor="middle"
+          font-family="Segoe UI, Arial, sans-serif"
+          font-size="72" font-weight="900"
+          fill="#ffffff" filter="url(#textGlow)">
+      MoNsT3R-code
+    </text>
+
+    <!-- Tagline -->
+    <text x="450" y="140" text-anchor="middle"
+          font-family="Segoe UI, Arial, sans-serif"
+          font-size="20" fill="#cccccc">
+      I don't wait for opportunities. I
+      <tspan fill="#00eaff" font-weight="700"> build</tspan> them.
+    </text>
+
+    <!-- Tech stack -->
+    <text x="450" y="190" text-anchor="middle"
+          font-family="Courier New, monospace"
+          font-size="16" fill="#00eaff" letter-spacing="2">
+      Python | JavaScript | TypeScript | Linux | Security
+    </text>
+
+    <!-- Simple stat badges -->
+    <g>
+      <!-- Profile views badge -->
+      <rect x="280" y="210" width="140" height="28" rx="4" fill="#2d333b" />
+      <text x="300" y="231" fill="#8b949e" font-family="Courier New, monospace" font-size="12">PROFILE VIEWS</text>
+      <rect x="380" y="210" width="60" height="28" rx="4" fill="#00eaff" />
+      <text x="410" y="231" text-anchor="middle" fill="#0d1117" font-family="Courier New, monospace" font-size="13" font-weight="700">12.5K</text>
+
+      <!-- Followers badge -->
+      <rect x="480" y="210" width="140" height="28" rx="4" fill="#2d333b" />
+      <text x="500" y="231" fill="#8b949e" font-family="Courier New, monospace" font-size="12">FOLLOWERS</text>
+      <rect x="580" y="210" width="60" height="28" rx="4" fill="#00eaff" />
+      <text x="610" y="231" text-anchor="middle" fill="#0d1117" font-family="Courier New, monospace" font-size="13" font-weight="700">1.3K</text>
+    </g>
+  </svg>
+</p>
 
 # 💫 About Me:
 🎓 Academic Path: Computer Science student passionate about backend systems, AI solutions, and software architecture.<br><br>💻 What I Build: Everything from complex Data Structures & Algorithms labs to full-stack web platforms and interactive 3D simulations.<br><br>🛡️ What I Break: Actively studying cybersecurity, configuring secure Linux environments, and working through web application vulnerabilities on PortSwigger.<br><br>⚡ Core Philosophy: "The best way to understand a complex system is to build it yourself, test its limits, and leave no edge case undocumented."
