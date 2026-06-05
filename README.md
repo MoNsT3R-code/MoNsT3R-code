@@ -1,5 +1,10 @@
 <div align="center">
 
+<!-- Custom Abstract Shape Icon -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 114 117" fill="currentColor" style="color:#00f5ff;" width="64" height="64" preserveAspectRatio="xMidYMid meet">
+  <path d="M81.0836 42.0117C81.7666 42.6109 82.4017 43.246 83.0129 43.9171C81.503 48.8902 81.0596 52.9046 83.8278 56.3678C83.1926 55.7087 82.3179 54.8459 81.6468 54.2228C79.3939 52.1856 79.0224 48.0034 81.0836 42.0117Z" fill="#00f5ff" stroke="#00f5ff"/>
+</svg>
+
 <img src="https://capsule-render.vercel.app/api?type=shark&color=0:000000,50:00f5ff,100:000000&height=200&section=header&text=MoNsT3R-code&fontSize=60&fontColor=ffffff&fontAlignY=45&desc=I%20don't%20wait%20for%20opportunities.%20I%20build%20them.&descAlignY=68&descSize=15&descColor=00f5ff&animation=fadeIn" />
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2500&pause=1000&color=00F5FF&center=true&vCenter=true&width=600&lines=CS+Student+%40+FCCU+%F0%9F%8E%93+%7C+Lahore+%F0%9F%87%B5%F0%9F%87%B0;Python+%7C+HTML5+%7C+CSS3+%7C+JavaScript+%7C+PowerShell+%7C+PHP+%7C+R;Cybersecurity+%26+AI+Explorer;Founder+Mindset+%E2%9A%A1+Builder+Always)](https://git.io/typing-svg)
