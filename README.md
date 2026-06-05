@@ -1,59 +1,102 @@
 <p align="center">
-  <svg width="100%" height="250" viewBox="0 0 900 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MoNsT3R-code banner">
+  <svg width="100%" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MoNsT3R-code banner">
     <defs>
-      <!-- Cyan glow gradient -->
-      <radialGradient id="cyanGlow" cx="50%" cy="40%">
-        <stop offset="0%" stop-color="#00eaff" stop-opacity="0.6"/>
-        <stop offset="100%" stop-color="#00b7ff" stop-opacity="0.2"/>
-      </radialGradient>
- <!-- Glow filter (expanded bounds so blur isn't clipped) -->
-      <filter id="textGlow" x="-50%" y="-50%" width="200%" height="200%">
-        <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
-        <feMerge>
-          <feMergeNode in="coloredBlur"/>
-          <feMergeNode in="SourceGraphic"/>
-        </feMerge>
+      <!-- Background gradient -->
+      <linearGradient id="bgGrad" x1="0" x2="1">
+        <stop offset="0%" stop-color="#071023"/>
+        <stop offset="100%" stop-color="#071a2b"/>
+      </linearGradient>
+    <!-- Colorful animated gradient for text -->
+      <linearGradient id="textGrad">
+        <stop offset="0%" stop-color="#00eaff" id="t0"/>
+        <stop offset="50%" stop-color="#8a2be2" id="t1"/>
+        <stop offset="100%" stop-color="#ff5fa2" id="t2"/>
+      </linearGradient>
+      <!-- Soft blurred backdrop -->
+      <filter id="softBlur" x="-30%" y="-30%" width="160%" height="160%">
+        <feGaussianBlur stdDeviation="12" result="blur"/>
+        <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
       </filter>
+ <!-- Drop shadow for text -->
+      <filter id="ds" x="-50%" y="-50%" width="200%" height="200%">
+        <feOffset dx="0" dy="6" result="off"/>
+        <feGaussianBlur in="off" stdDeviation="10" result="blur2"/>
+        <feFlood flood-color="#000000" flood-opacity="0.45"/>
+        <feComposite in2="blur2" operator="in"/>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+ <!-- animated blob path as background -->
+      <radialGradient id="blobGrad" cx="50%" cy="35%">
+        <stop offset="0%" stop-color="#00EAFF" stop-opacity="0.18"/>
+        <stop offset="60%" stop-color="#8A2BE2" stop-opacity="0.12"/>
+        <stop offset="100%" stop-color="#FF5FA2" stop-opacity="0"/>
+      </radialGradient>
+ <!-- Animate color stops (SMIL) -->
+      <animate xlink:href="#t0" attributeName="stop-color" values="#00eaff;#00ff9c;#00eaff" dur="6s" repeatCount="indefinite"/>
+      <animate xlink:href="#t1" attributeName="stop-color" values="#8a2be2;#ff5fa2;#8a2be2" dur="6s" repeatCount="indefinite"/>
+      <animate xlink:href="#t2" attributeName="stop-color" values="#ff5fa2;#00eaff;#ff5fa2" dur="6s" repeatCount="indefinite"/>
     </defs>
-<!-- Background -->
-    <rect width="900" height="250" fill="#0d1117"/>
-<!-- Cyan orb glow -->
-    <circle cx="650" cy="80" r="120" fill="url(#cyanGlow)" />
-<!-- Main name -->
-    <text x="450" y="95" text-anchor="middle"
-          font-family="Segoe UI, Arial, sans-serif"
-          font-size="72" font-weight="900"
-          fill="#ffffff" filter="url(#textGlow)">
+    <!-- background -->
+    <rect width="1200" height="320" fill="url(#bgGrad)"/>
+<!-- animated colorful background blobs -->
+    <g filter="url(#softBlur)" opacity="0.9">
+      <circle cx="920" cy="80" r="160" fill="url(#blobGrad)">
+        <animate attributeName="cx" dur="10s" values="920;1020;900;920" repeatCount="indefinite"/>
+        <animate attributeName="cy" dur="12s" values="80;60;100;80" repeatCount="indefinite"/>
+        <animate attributeName="r" dur="8s" values="160;130;170;160" repeatCount="indefinite"/>
+      </circle>
+
+  <ellipse cx="260" cy="160" rx="220" ry="120" fill="#062a44" opacity="0.55">
+    <animate attributeName="rx" dur="12s" values="220;240;200;220" repeatCount="indefinite"/>
+   </ellipse>
+</g>
+<!-- translucent rounded backdrop behind name -->
+    <rect x="120" y="68" rx="22" ry="22" width="960" height="120" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.03)" />
+    <g filter="url(#softBlur)" opacity="0.06">
+      <rect x="140" y="80" rx="18" width="920" height="96" fill="url(#blobGrad)"/>
+    </g>
+<!-- Main username (very large, centered) -->
+    <text x="50%" y="140" text-anchor="middle" dominant-baseline="middle"
+          font-family="'Inter', 'Montserrat', 'Segoe UI', system-ui, -apple-system, Arial"
+          font-size="86" font-weight="900"
+          fill="url(#textGrad)" filter="url(#ds)" style="letter-spacing: -2px;">
       MoNsT3R-code
     </text>
-<!-- Tagline -->
-    <text x="450" y="140" text-anchor="middle"
-          font-family="Segoe UI, Arial, sans-serif"
-          font-size="20" fill="#cccccc">
-      I don't wait for opportunities. I
-      <tspan fill="#00eaff" font-weight="700"> build</tspan> them.
+ <!-- underline accent (animated) -->
+    <line x1="360" x2="840" y1="170" y2="170" stroke="url(#textGrad)" stroke-width="6" stroke-linecap="round" opacity="0.9">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="4s" repeatCount="indefinite"/>
+    </line>
+ <!-- Tagline -->
+    <text x="50%" y="200" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" fill="#bfc9d6" opacity="0.95">
+      I don't wait for opportunities. I <tspan fill="#00eaff" font-weight="700">build</tspan> them.
     </text>
-<!-- Tech stack -->
-    <text x="450" y="190" text-anchor="middle"
-          font-family="Courier New, monospace"
-          font-size="16" fill="#00eaff" letter-spacing="2">
-      Python | JavaScript | TypeScript | Linux | Security
-    </text>
-<!-- Simple stat badges -->
-    <g>
-<!-- Profile views badge -->
-      <rect x="280" y="210" width="140" height="28" rx="4" fill="#2d333b" />
-      <text x="300" y="231" fill="#8b949e" font-family="Courier New, monospace" font-size="12">PROFILE VIEWS</text>
-      <rect x="380" y="210" width="60" height="28" rx="4" fill="#00eaff" />
-      <text x="410" y="231" text-anchor="middle" fill="#0d1117" font-family="Courier New, monospace" font-size="13" font-weight="700">12.5K</text>
-<!-- Followers badge -->
-      <rect x="480" y="210" width="140" height="28" rx="4" fill="#2d333b" />
-      <text x="500" y="231" fill="#8b949e" font-family="Courier New, monospace" font-size="12">FOLLOWERS</text>
-      <rect x="580" y="210" width="60" height="28" rx="4" fill="#00eaff" />
-      <text x="610" y="231" text-anchor="middle" fill="#0d1117" font-family="Courier New, monospace" font-size="13" font-weight="700">1.3K</text>
+        <!-- Tech badges (widgets) from shields.io -->
+    <g transform="translate(420,220)" style="cursor:default">
+      <image href="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" x="0" y="-6" width="160" height="34"/>
+      <image href="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" x="170" y="-6" width="160" height="34"/>
+      <image href="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" x="340" y="-6" width="160" height="34"/>
     </g>
+ <!-- small floating particles for subtle motion -->
+    <g fill="#00eaff" opacity="0.06">
+      <circle cx="110" cy="40" r="6">
+        <animate attributeName="cy" dur="8s" values="40;20;40" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1060" cy="60" r="4">
+        <animate attributeName="cx" dur="9s" values="1060;1080;1060" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="700" cy="30" r="5">
+        <animate attributeName="cy" dur="7s" values="30;10;30" repeatCount="indefinite"/>
+      </circle>
+    </g>
+<!-- subtle hover hint (if supported) -->
+    <style>
+      svg:hover text { transform-origin: 50% 50%; transform-box: fill-box; transition: transform 0.35s ease; }
+      svg:hover text:first-of-type { transform: scale(1.02); }
+    </style>
   </svg>
 </p>
+
+
 
 # 💫 About Me:
 🎓 Academic Path: Computer Science student passionate about backend systems, AI solutions, and software architecture.<br><br>💻 What I Build: Everything from complex Data Structures & Algorithms labs to full-stack web platforms and interactive 3D simulations.<br><br>🛡️ What I Break: Actively studying cybersecurity, configuring secure Linux environments, and working through web application vulnerabilities on PortSwigger.<br><br>⚡ Core Philosophy: "The best way to understand a complex system is to build it yourself, test its limits, and leave no edge case undocumented."
