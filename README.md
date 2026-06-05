@@ -16,7 +16,6 @@
       opacity: 0;
       animation: revealLine 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
     }
-    
     /* Sequential Delays to display them one line by one */
     .delay-1 { animation-delay: 0.5s; }
     .delay-2 { animation-delay: 1.8s; }
@@ -25,7 +24,6 @@
     .delay-5 { animation-delay: 5.7s; }
     .delay-6 { animation-delay: 7.0s; }
     .delay-7 { animation-delay: 8.3s; }
-
     @keyframes revealLine {
       0% {
         opacity: 0;
