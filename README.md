@@ -51,4 +51,4 @@
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=MoNsT3R-code&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ---
-[![](https://komarev.com/ghpvc/?username=MoNsT3R-code&icon=2&color=0)](https://visitcount.itsvg.in)
+[![](https://komarev.com/ghpvc/?username=MoNsT3R-code&icon=2&color=white)](https://visitcount.itsvg.in)
