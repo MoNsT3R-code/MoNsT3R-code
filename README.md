@@ -1,29 +1,67 @@
-<p align="center">
-  <svg width="100%" height="150" viewBox="0 0 800 150">
-    <defs>
-      <!-- BLUE NEON GRADIENT -->
-      <linearGradient id="glowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stopColor="#00eaff"/>
-        <stop offset="100%" stopColor="#00b7ff"/>
-      </linearGradient>
-
-      <!-- GLOW FILTER -->
-      <filter id="glow">
-        <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
-        <feMerge>
-          <feMergeNode in="coloredBlur"/>
-          <feMergeNode in="SourceGraphic"/>
-        </feMerge>
-      </filter>
-    </defs>
-
-    <!-- GLOWING TEXT -->
-    <text x="400" y="90" textAnchor="middle" dominantBaseline="middle"
-      style="font-size: 60px; font-weight: 800; fill: url(#glowGradient); filter: url(#glow); font-family: Arial, sans-serif;">
-      MoNsT3R-code
-    </text>
-  </svg>
-</p>
+# <div align="center">
+# 
+# ![MoNsT3R Banner](https://img.shields.io/badge/MoNsT3R--code-000000?style=flat)
+# 
+# <svg width="100%" height="250" viewBox="0 0 900 250" xmlns="http://www.w3.org/2000/svg">
+#   <defs>
+#     <!-- Dark background -->
+#     <rect width="900" height="250" fill="#0d1117"/>
+#     
+#     <!-- Cyan glow -->
+#     <radialGradient id="cyanGlow" cx="50%" cy="40%">
+#       <stop offset="0%" stopColor="#00eaff" stopOpacity="0.6"/>
+#       <stop offset="100%" stopColor="#00b7ff" stopOpacity="0.2"/>
+#     </radialGradient>
+#     
+#     <!-- Glow filter -->
+#     <filter id="textGlow">
+#       <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+#       <feMerge>
+#         <feMergeNode in="coloredBlur"/>
+#         <feMergeNode in="SourceGraphic"/>
+#       </feMerge>
+#     </filter>
+#   </defs>
+#   
+#   <!-- Background -->
+#   <rect width="900" height="250" fill="#0d1117"/>
+#   
+#   <!-- Cyan orb glow -->
+#   <circle cx="650" cy="80" r="120" fill="url(#cyanGlow)"/>
+#   
+#   <!-- Main name -->
+#   <text x="450" y="90" textAnchor="middle" style="font-size: 72px; font-weight: 900; fill: #ffffff; font-family: 'Segoe UI', Arial, sans-serif; filter: url(#textGlow);">
+#     MoNsT3R-code
+#   </text>
+#   
+#   <!-- Tagline -->
+#   <text x="450" y="135" textAnchor="middle" style="font-size: 20px; fill: #cccccc; font-family: 'Segoe UI', Arial, sans-serif;">
+#     I don't wait for opportunities. I
+#     <tspan style="fill: #00eaff; font-weight: bold;">build</tspan> them.
+#   </text>
+#   
+#   <!-- Tech stack -->
+#   <text x="450" y="185" textAnchor="middle" style="font-size: 16px; fill: #00eaff; font-family: 'Courier New', monospace; letter-spacing: 2px;">
+#     Python | JavaScript | TypeScript | Linux | Security
+#   </text>
+#   
+#   <!-- Stats badges -->
+#   <g>
+#     <!-- Profile views badge -->
+#     <rect x="280" y="210" width="140" height="25" fill="#2d333b" rx="3"/>
+#     <text x="290" y="227" style="font-size: 12px; fill: #8b949e; font-family: 'Courier New', monospace;">PROFILE VIEWS</text>
+#     <rect x="340" y="210" width="60" height="25" fill="#00eaff" rx="3"/>
+#     <text x="370" y="227" textAnchor="middle" style="font-size: 14px; font-weight: bold; fill: #0d1117; font-family: 'Courier New', monospace;">12.5K</text>
+#     
+#     <!-- Followers badge -->
+#     <rect x="480" y="210" width="140" height="25" fill="#2d333b" rx="3"/>
+#     <text x="490" y="227" style="font-size: 12px; fill: #8b949e; font-family: 'Courier New', monospace;">FOLLOWERS</text>
+#     <rect x="540" y="210" width="60" height="25" fill="#00eaff" rx="3"/>
+#     <text x="570" y="227" textAnchor="middle" style="font-size: 14px; font-weight: bold; fill: #0d1117; font-family: 'Courier New', monospace;">1.3K</text>
+#   </g>
+# </svg>
+# 
+# </div>
 
 # 💫 About Me:
 🎓 Academic Path: Computer Science student passionate about backend systems, AI solutions, and software architecture.<br><br>💻 What I Build: Everything from complex Data Structures & Algorithms labs to full-stack web platforms and interactive 3D simulations.<br><br>🛡️ What I Break: Actively studying cybersecurity, configuring secure Linux environments, and working through web application vulnerabilities on PortSwigger.<br><br>⚡ Core Philosophy: "The best way to understand a complex system is to build it yourself, test its limits, and leave no edge case undocumented."
@@ -32,7 +70,6 @@
 ## 🌐 Socials:
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/monst3r12e_24793) 
 
-# 💻 Tech Stack:
 # 💻 Tech Stack:
 
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
