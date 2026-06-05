@@ -1,11 +1,10 @@
 <p align="center">
-  <svg width="100%" height="150">
+  <svg width="100%" height="150" viewBox="0 0 800 150">
     <defs>
-
       <!-- BLUE NEON GRADIENT -->
       <linearGradient id="glowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#00eaff"/>
-        <stop offset="100%" stop-color="#00b7ff"/>
+        <stop offset="0%" stopColor="#00eaff"/>
+        <stop offset="100%" stopColor="#00b7ff"/>
       </linearGradient>
 
       <!-- GLOW FILTER -->
@@ -16,19 +15,15 @@
           <feMergeNode in="SourceGraphic"/>
         </feMerge>
       </filter>
-
     </defs>
 
     <!-- GLOWING TEXT -->
-    <text x="50%" y="50%" text-anchor="middle"
-      style="font-size: 60px; font-weight: 800; fill: url(#glowGradient); filter: url(#glow);">
+    <text x="400" y="90" textAnchor="middle" dominantBaseline="middle"
+      style="font-size: 60px; font-weight: 800; fill: url(#glowGradient); filter: url(#glow); font-family: Arial, sans-serif;">
       MoNsT3R-code
     </text>
-
   </svg>
 </p>
-
-
 
 # 💫 About Me:
 🎓 Academic Path: Computer Science student passionate about backend systems, AI solutions, and software architecture.<br><br>💻 What I Build: Everything from complex Data Structures & Algorithms labs to full-stack web platforms and interactive 3D simulations.<br><br>🛡️ What I Break: Actively studying cybersecurity, configuring secure Linux environments, and working through web application vulnerabilities on PortSwigger.<br><br>⚡ Core Philosophy: "The best way to understand a complex system is to build it yourself, test its limits, and leave no edge case undocumented."
