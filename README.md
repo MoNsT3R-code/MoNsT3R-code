@@ -1,98 +1,119 @@
 <p align="center">
-  <svg width="100%" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MoNsT3R-code banner">
+  <svg width="100%" height="450" viewBox="0 0 1000 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MoNsT3R-code professional banner with text animations">
     <defs>
-      <!-- Background gradient -->
-      <linearGradient id="bgGrad" x1="0" x2="1">
-        <stop offset="0%" stop-color="#071023"/>
-        <stop offset="100%" stop-color="#071a2b"/>
+      <!-- Premium Cyber Linear Gradient for Top Border -->
+      <linearGradient id="topBorderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#00eaff" />
+        <stop offset="50%" stop-color="#9d4edd" />
+        <stop offset="100%" stop-color="#7209b7" />
       </linearGradient>
-    <!-- Colorful animated gradient for text -->
-      <linearGradient id="textGrad">
-        <stop offset="0%" stop-color="#00eaff" id="t0"/>
-        <stop offset="50%" stop-color="#8a2be2" id="t1"/>
-        <stop offset="100%" stop-color="#ff5fa2" id="t2"/>
+ <!-- Geometric Shape Gradient mapping to image_8b54f9.jpg -->
+      <linearGradient id="cryptoMesh" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#00eaff" stop-opacity="0.8"/>
+        <stop offset="50%" stop-color="#a200ff" stop-opacity="0.6"/>
+        <stop offset="100%" stop-color="#005f73" stop-opacity="0.2"/>
       </linearGradient>
-      <!-- Soft blurred backdrop -->
-      <filter id="softBlur" x="-30%" y="-30%" width="160%" height="160%">
-        <feGaussianBlur stdDeviation="12" result="blur"/>
-        <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-      </filter>
- <!-- Drop shadow for text -->
-      <filter id="ds" x="-50%" y="-50%" width="200%" height="200%">
-        <feOffset dx="0" dy="6" result="off"/>
-        <feGaussianBlur in="off" stdDeviation="10" result="blur2"/>
-        <feFlood flood-color="#000000" flood-opacity="0.45"/>
-        <feComposite in2="blur2" operator="in"/>
-        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
-      </filter>
- <!-- animated blob path as background -->
-      <radialGradient id="blobGrad" cx="50%" cy="35%">
-        <stop offset="0%" stop-color="#00EAFF" stop-opacity="0.18"/>
-        <stop offset="60%" stop-color="#8A2BE2" stop-opacity="0.12"/>
-        <stop offset="100%" stop-color="#FF5FA2" stop-opacity="0"/>
-      </radialGradient>
- <!-- Animate color stops (SMIL) -->
-      <animate xlink:href="#t0" attributeName="stop-color" values="#00eaff;#00ff9c;#00eaff" dur="6s" repeatCount="indefinite"/>
-      <animate xlink:href="#t1" attributeName="stop-color" values="#8a2be2;#ff5fa2;#8a2be2" dur="6s" repeatCount="indefinite"/>
-      <animate xlink:href="#t2" attributeName="stop-color" values="#ff5fa2;#00eaff;#ff5fa2" dur="6s" repeatCount="indefinite"/>
-    </defs>
-    <!-- background -->
-    <rect width="1200" height="320" fill="url(#bgGrad)"/>
-<!-- animated colorful background blobs -->
-    <g filter="url(#softBlur)" opacity="0.9">
-      <circle cx="920" cy="80" r="160" fill="url(#blobGrad)">
-        <animate attributeName="cx" dur="10s" values="920;1020;900;920" repeatCount="indefinite"/>
-        <animate attributeName="cy" dur="12s" values="80;60;100;80" repeatCount="indefinite"/>
-        <animate attributeName="r" dur="8s" values="160;130;170;160" repeatCount="indefinite"/>
-      </circle>
+<!-- Pure SVG Animation Style Block -->
+      <style>
+        .fade-in-line {
+          opacity: 0;
+          animation: revealLine 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+        }
+        
+  /* Sequential Delays to display them one line by one */
+        .delay-1 { animation-delay: 0.5s; }
+        .delay-2 { animation-delay: 1.8s; }
+        .delay-3 { animation-delay: 3.1s; }
+        .delay-4 { animation-delay: 4.4s; }
+        .delay-5 { animation-delay: 5.7s; }
+        .delay-6 { animation-delay: 7.0s; }
+        .delay-7 { animation-delay: 8.3s; }
 
-  <ellipse cx="260" cy="160" rx="220" ry="120" fill="#062a44" opacity="0.55">
-    <animate attributeName="rx" dur="12s" values="220;240;200;220" repeatCount="indefinite"/>
-   </ellipse>
-</g>
-<!-- translucent rounded backdrop behind name -->
-    <rect x="120" y="68" rx="22" ry="22" width="960" height="120" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.03)" />
-    <g filter="url(#softBlur)" opacity="0.06">
-      <rect x="140" y="80" rx="18" width="920" height="96" fill="url(#blobGrad)"/>
+  @keyframes revealLine {
+          0% {
+            opacity: 0;
+            transform: translateY(10px);
+          }
+          100% {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+      </style>
+    </defs>
+    <!-- Canvas Background -->
+    <rect width="1000" height="450" fill="#0b0f17"/>
+    <!-- Aesthetic Top Border Gradient Frame from image_8b54f9.jpg -->
+    <rect x="0" y="0" width="1000" height="6" fill="url(#topBorderGrad)"/>
+    <!-- Centered Geometric Backdrop Structure (Recreating the 3D Icosahedron Cage) -->
+    <g transform="translate(500, 160) scale(1.1)" stroke="url(#cryptoMesh)" stroke-width="2.5" fill="none" opacity="0.4">
+    <!-- Outer Shell Hexagon Wireframe Nodes -->
+      <polygon points="0,-80 69,-40 69,40 0,80 -69,40 -69,-40" stroke-width="3" />
+    <!-- Internal Intersecting Triangular Matrix -->
+      <polygon points="0,-80 0,80" />
+      <polygon points="-69,-40 69,40" />
+      <polygon points="-69,40 69,-40" />
+      <polygon points="0,-45 40,-15 40,35 0,65 -40,35 -40,-15" />
+      <!-- Structural Core Connectors -->
+      <line x1="0" y1="-80" x2="0" y2="-45" />
+      <line x1="69" y1="-40" x2="40" y2="-15" />
+      <line x1="69" y1="40" x2="40" y2="35" />
+      <line x1="0" y1="80" x2="0" y2="65" />
+      <line x1="-69" y1="40" x2="-40" y2="35" />
+      <line x1="-69" y1="-40" x2="-40" y2="-15" />
     </g>
-<!-- Main username (very large, centered) -->
-    <text x="50%" y="140" text-anchor="middle" dominant-baseline="middle"
-          font-family="'Inter', 'Montserrat', 'Segoe UI', system-ui, -apple-system, Arial"
-          font-size="86" font-weight="900"
-          fill="url(#textGrad)" filter="url(#ds)" style="letter-spacing: -2px;">
+    <!-- Scaled Up, Centered Username - Clean & Solid Bold White (No Glow Filter) -->
+    <text x="500" y="175" text-anchor="middle" 
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" 
+          font-weight="900" font-size="90" fill="#ffffff" letter-spacing="-1px">
       MoNsT3R-code
     </text>
- <!-- underline accent (animated) -->
-    <line x1="360" x2="840" y1="170" y2="170" stroke="url(#textGrad)" stroke-width="6" stroke-linecap="round" opacity="0.9">
-      <animate attributeName="opacity" values="0.6;1;0.6" dur="4s" repeatCount="indefinite"/>
-    </line>
- <!-- Tagline -->
-    <text x="50%" y="200" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" fill="#bfc9d6" opacity="0.95">
-      I don't wait for opportunities. I <tspan fill="#00eaff" font-weight="700">build</tspan> them.
-    </text>
-        <!-- Tech badges (widgets) from shields.io -->
-    <g transform="translate(420,220)" style="cursor:default">
-      <image href="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" x="0" y="-6" width="160" height="34"/>
-      <image href="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" x="170" y="-6" width="160" height="34"/>
-      <image href="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" x="340" y="-6" width="160" height="34"/>
+    <!-- Dynamic Tech Stack Group — Displays One Line By One Line -->
+    <g id="animatedTechStack" font-family="'Courier New', Courier, monospace" font-weight="bold" font-size="15" fill="#00eaff" letter-spacing="1">
+    <!-- Line 1: Core Languages -->
+      <text x="500" y="230" text-anchor="middle" class="fade-in-line delay-1">
+        Languages: C | HTML5 | CSS3 | JavaScript | PowerShell | PHP | Python | R
+      </text>
+      <!-- Line 2: Servers & Web Architecture -->
+      <text x="500" y="255" text-anchor="middle" class="fade-in-line delay-2">
+        Servers: Apache | Apache Tomcat
+      </text>
+      <!-- Line 3: Relational Database Infrastructure -->
+      <text x="500" y="280" text-anchor="middle" class="fade-in-line delay-3">
+        Databases: Microsoft SQL Server | MariaDB | MySQL | PostgreSQL
+      </text>
+      <!-- Line 4: Creative Engineering Design suites -->
+      <text x="500" y="305" text-anchor="middle" class="fade-in-line delay-4">
+        Design: Adobe Acrobat Reader | Adobe Illustrator | Adobe | Canva
+      </text>
+      <!-- Line 5: Core Math & Data Science Frameworks -->
+      <text x="500" y="330" text-anchor="middle" class="fade-in-line delay-5">
+        Data Science: Matplotlib | NumPy | Pandas | Plotly | PyTorch | Scikit-Learn | SciPy | TensorFlow
+      </text>
+      <!-- Line 6: Version Control Automation Channels -->
+      <text x="500" y="355" text-anchor="middle" class="fade-in-line delay-6">
+        Version Control: Git | GitHub
+      </text>
+      <!-- Line 7: Cybersecurity Operational Tools -->
+      <text x="500" y="380" text-anchor="middle" class="fade-in-line delay-7" fill="#ff9f1c">
+        Security: Tor Project | PortSwigger Labs
+      </text>
     </g>
- <!-- small floating particles for subtle motion -->
-    <g fill="#00eaff" opacity="0.06">
-      <circle cx="110" cy="40" r="6">
-        <animate attributeName="cy" dur="8s" values="40;20;40" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="1060" cy="60" r="4">
-        <animate attributeName="cx" dur="9s" values="1060;1080;1060" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="700" cy="30" r="5">
-        <animate attributeName="cy" dur="7s" values="30;10;30" repeatCount="indefinite"/>
-      </circle>
+    <!-- Flat Borderless High-Contrast Widgets Row mimicking image_8b54f9.jpg -->
+    <g transform="translate(325, 410)">
+      <!-- Profile Views Widget Component -->
+      <rect x="0" y="0" width="112" height="26" fill="none" stroke="#00eaff" stroke-width="1.5"/>
+      <text x="56" y="17" text-anchor="middle" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="900" letter-spacing="0.5">PROFILE VIEWS</text>
+      <rect x="112" y="0" width="53" height="26" fill="#00eaff"/>
+      <text x="138.5" y="18" text-anchor="middle" fill="#0b0f17" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="900">12.5K</text>
+      <!-- Followers Widget Component -->
+      <rect x="185" y="0" width="95" height="26" fill="none" stroke="#00eaff" stroke-width="1.5"/>
+      <text x="232.5" y="17" text-anchor="middle" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="900" letter-spacing="0.5">FOLLOWERS</text>
+      <rect x="280" y="0" width="50" height="26" fill="#00eaff"/>
+      <text x="305" y="18" text-anchor="middle" fill="#0b0f17" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="900">1.3K</text>
     </g>
-<!-- subtle hover hint (if supported) -->
-    <style>
-      svg:hover text { transform-origin: 50% 50%; transform-box: fill-box; transition: transform 0.35s ease; }
-      svg:hover text:first-of-type { transform: scale(1.02); }
-    </style>
+    <!-- Four-Point Clean Star Detail (Bottom Right Decor Accent) -->
+    <path d="M 940 400 Q 940 415 955 415 Q 940 415 940 430 Q 940 415 925 415 Q 940 415 940 400 Z" fill="#8b949e" opacity="0.6"/>
   </svg>
 </p>
 
