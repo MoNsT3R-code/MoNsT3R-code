@@ -40,7 +40,7 @@
 
 
 # About Me:
- Academic Path: Computer Science student passionate about backend systems, AI solutions, and software architecture.<br><br>💻 What I Build: Everything from complex Data Structures & Algorithms labs to full-stack web platforms and interactive 3D simulations.<br><br>🛡️ What I Break: Actively studying cybersecurity, configuring secure Linux environments, and working through web application vulnerabilities on PortSwigger.<br><br>⚡ Core Philosophy: "The best way to understand a complex system is to build it yourself, test its limits, and leave no edge case undocumented."
+ Academic Path: Computer Science student passionate about backend systems, AI solutions, and software architecture.<br><br> What I Build: Everything from complex Data Structures & Algorithms labs to full-stack web platforms and interactive 3D simulations.<br><br> What I Break: Actively studying cybersecurity, configuring secure Linux environments, and working through web application vulnerabilities on PortSwigger.<br><br> Core Philosophy: "The best way to understand a complex system is to build it yourself, test its limits, and leave no edge case undocumented."
 
 
 ## Socials:
