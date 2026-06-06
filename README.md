@@ -22,6 +22,7 @@
   <code>MS Office-Google</code> &nbsp;&middot;&nbsp; 
   <code>Kali Linux</code> &nbsp;&middot;&nbsp; 
   <code>MicrosoftSQL Server</code> &nbsp;&middot;&nbsp; 
+  <code>Canva Pro</code> &nbsp;&middot;&nbsp; 
   <code>Ubuntu</code> &nbsp;&middot;&nbsp; 
   <code>VS Code-Google Colab</code>
 </h5>
