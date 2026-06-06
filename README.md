@@ -23,7 +23,7 @@
   <code>Kali Linux</code> &nbsp;&middot;&nbsp; 
   <code>MicrosoftSQL Server</code> &nbsp;&middot;&nbsp; 
   <code>Ubuntu</code> &nbsp;&middot;&nbsp; 
-  <code>VS Code</code>
+  <code>VS Code-Google Colab</code>
 </h5>
 
 <p align="center" style="margin-top: 20px;">
