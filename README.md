@@ -18,11 +18,12 @@
 </div>
 
 <h5 style="margin-bottom: 20px;">
-  <code>Python</code> &nbsp;&middot;&nbsp; 
-  <code>Django</code> &nbsp;&middot;&nbsp; 
-  <code>React</code> &nbsp;&middot;&nbsp; 
-  <code>Next.js</code> &nbsp;&middot;&nbsp; 
-  <code>PHP</code>
+  <code>IDLE</code> &nbsp;&middot;&nbsp; 
+  <code>MS Office-Google</code> &nbsp;&middot;&nbsp; 
+  <code>Kali Linux</code> &nbsp;&middot;&nbsp; 
+  <code>MicrosoftSQL Server</code> &nbsp;&middot;&nbsp; 
+  <code>Ubuntu</code> &nbsp;&middot;&nbsp; 
+  <code>VS Code</code>
 </h5>
 
 <p align="center" style="margin-top: 20px;">
