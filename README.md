@@ -1,8 +1,7 @@
 <div align="center">
 
-<!-- Custom Abstract Shape Icon -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 114 117" fill="currentColor" style="color:#00f5ff;" width="64" height="64" preserveAspectRatio="xMidYMid meet">
-  <path d="M81.0836 42.0117C81.7666 42.6109 82.4017 43.246 83.0129 43.9171C81.503 48.8902 81.0596 52.9046 83.8278 56.3678C83.1926 55.7087 82.3179 54.8459 81.6468 54.2228C79.3939 52.1856 79.0224 48.0034 81.0836 42.0117Z" fill="#00f5ff" stroke="#00f5ff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86 92" fill="currentColor" style="color:#00f5ff;" width="64" height="64" preserveAspectRatio="xMidYMid meet">
+  <path d="M43 0 C60 0, 86 20, 86 46 C86 72, 60 92, 43 92 C26 92, 0 72, 0 46 C0 20, 26 0, 43 0 Z" />
 </svg>
 
 <img src="https://capsule-render.vercel.app/api?type=shark&color=0:000000,50:00f5ff,100:000000&height=200&section=header&text=MoNsT3R-code&fontSize=60&fontColor=ffffff&fontAlignY=45&desc=I%20don't%20wait%20for%20opportunities.%20I%20build%20them.&descAlignY=68&descSize=15&descColor=00f5ff&animation=fadeIn" />
@@ -13,7 +12,6 @@
 [![GitHub followers](https://img.shields.io/github/followers/MoNsT3R-code?style=flat-square&color=00f5ff&labelColor=0d1117&label=FOLLOWERS)](https://github.com/MoNsT3R-code?tab=followers)
 
 </div>
-
 
 ---
 
