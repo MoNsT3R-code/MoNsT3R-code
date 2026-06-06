@@ -1,22 +1,23 @@
 <div align="center">
 
-<p align="center">
-  <img src="image_10c9c0.jpg" alt="MoNsT3R-code Lion Logo" width="180" style="border-radius: 10px;" />
-</p>
+<div style="display: flex; align-items: center; justify-content: center; gap: 15px; margin: 20px 0 10px 0;">
+  <img src="Profile Image.png" alt="MoNsT3R-code Logo" width="555" style="border-radius: 50px; box-shadow: 5 0 15px rgba(0, 245, 255, 0.2);" />
 
-<div style="position: relative; display: inline-block; padding: 10px 40px; text-align: center;">
-  <h1 style="position: relative; z-index: 2; margin: 0; font-family: 'Fira Code', monospace; font-size: 2.5em; font-weight: 800; background: linear-gradient(135deg, #00bfff 0%, #ffffff 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
-    MoNsT3R-code
-  </h1>
 </div>
 
-> *Securing the architecture, line by line.*
+<p style="margin-top: 0; margin-bottom: 25px; color: #8b949e; font-size: 1.1em; font-style: italic;">
+  Securing the architecture, line by line.
+</p>
 
 ---
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2500&pause=1000&color=00F5FF&center=true&vCenter=true&width=600&lines=CS+Student+%40+FCCU+%F0%9F%8E%93+%7C+Lahore;Python+%7C+Django+%7C+React+%7C+Next.js+%7C+PHP;Cybersecurity+%26+Ethical+Hacking+Enthusiast+%E2%9A%A1)](https://git.io/typing-svg)
+<div style="margin: 25px 0;">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2500&pause=1000&color=00F5FF&center=true&vCenter=true&width=600&lines=CS+Student+%40+FCCU+%F0%9F%8E%93+%7C+Lahore;Python+%7C+Django+%7C+React+%7C+Next.js+%7C+PHP;Cybersecurity+%26+Ethical+Hacking+Enthusiast+%E2%9A%A1" alt="Typing SVG" />
+  </a>
+</div>
 
-<h5>
+<h5 style="margin-bottom: 20px;">
   <code>Python</code> &nbsp;&middot;&nbsp; 
   <code>Django</code> &nbsp;&middot;&nbsp; 
   <code>React</code> &nbsp;&middot;&nbsp; 
@@ -24,14 +25,13 @@
   <code>PHP</code>
 </h5>
 
-<p align="center">
+<p align="center" style="margin-top: 20px;">
   <img src="https://komarev.com/ghpvc/?username=MoNsT3R-code&style=flat-square&color=00f5ff&label=PROFILE+VIEWS" alt="Profile Views" />
   &nbsp;&nbsp;
   <img src="https://img.shields.io/github/followers/MoNsT3R-code?style=flat-square&color=00f5ff&labelColor=0d1117&label=FOLLOWERS" alt="GitHub Followers" />
 </p>
 
 </div>
-
 
 
 ---
