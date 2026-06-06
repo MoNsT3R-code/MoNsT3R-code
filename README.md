@@ -1,7 +1,7 @@
 <div align="center">
 
 <div style="display: flex; align-items: center; justify-content: center; gap: 15px; margin: 20px 0 10px 0;">
-  <img src="Profile Image.png" alt="MoNsT3R-code Logo" width="555" style="border-radius: 50px; box-shadow: 5 0 15px rgba(0, 245, 255, 0.2);" />
+  <img src="Profile Image.png" alt="MoNsT3R-code Logo" width="555" style="border-radius: 50px; box-shadow: 0 0 15px rgba(0, 255, 128, 0.4);" />
 
 </div>
 
@@ -13,34 +13,58 @@
 
 <div style="margin: 25px 0;">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2500&pause=1000&color=00F5FF&center=true&vCenter=true&width=600&lines=CS+Student+%40+FCCU+%F0%9F%8E%93+%7C+Lahore;Python+%7C+C+%7C+HTML+%7C+js+%7C+PHP+%7C+CSS;Cybersecurity+%26+SQL+Portswigger+Pentesting+%E2%9A%A1" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2500&pause=1000&color=00FF80&center=true&vCenter=true&width=600&lines=CS+Student+%40+FCCU+%F0%9F%8E%93+%7C+Lahore;Python+%7C+C+%7C+HTML+%7C+js+%7C+PHP+%7C+CSS;Cybersecurity+%26+SQL+Portswigger+Pentesting+%E2%9A%A1" alt="Typing SVG" />
   </a>
 </div>
 
-<h5 style="margin-bottom: 20px;">
-  <code>IDLE</code> &nbsp;&middot;&nbsp; 
-  <code>MS Office-Google</code> &nbsp;&middot;&nbsp; 
-  <code>Kali Linux</code> &nbsp;&middot;&nbsp; 
-  <code>MicrosoftSQL Server</code> &nbsp;&middot;&nbsp; 
-  <code>Canva Pro</code> &nbsp;&middot;&nbsp; 
-  <code>Ubuntu</code> &nbsp;&middot;&nbsp; 
-  <code>VS Code-Google Colab</code>
-</h5>
+  <h5 style="margin-bottom: 20px; color: #00FF80;">
+    <code>IDLE</code> &nbsp;&middot;&nbsp; 
+    <code>MS Office-Google</code> &nbsp;&middot;&nbsp; 
+    <code>Kali Linux</code> &nbsp;&middot;&nbsp; 
+    <code>MicrosoftSQL Server</code> &nbsp;&middot;&nbsp; 
+    <code>Canva Pro</code> &nbsp;&middot;&nbsp; 
+    <code>Ubuntu</code> &nbsp;&middot;&nbsp; 
+    <code>VS Code-Google Colab</code>
+  </h5>
 
 <p align="center" style="margin-top: 20px;">
-  <img src="https://komarev.com/ghpvc/?username=MoNsT3R-code&style=flat-square&color=00f5ff&label=PROFILE+VIEWS" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=MoNsT3R-code&style=flat-square&color=00ff80&label=PROFILE+VIEWS" alt="Profile Views" />
   &nbsp;&nbsp;
-  <img src="https://img.shields.io/github/followers/MoNsT3R-code?style=flat-square&color=00f5ff&labelColor=0d1117&label=FOLLOWERS" alt="GitHub Followers" />
+  <img src="https://img.shields.io/github/followers/MoNsT3R-code?style=flat-square&color=00ff80&labelColor=0d1117&label=FOLLOWERS" alt="GitHub Followers" />
 </p>
 
 </div>
 
 
+
+
 ---
 
+## <span style="color: #00FF80;">About Me</span>
 
-# About Me:
- Academic Path: Computer Science student passionate about backend systems, AI solutions, and software architecture.<br><br> What I Build: Everything from complex Data Structures & Algorithms labs to full-stack web platforms and interactive 3D simulations.<br><br> What I Break: Actively studying cybersecurity, configuring secure Linux environments, and working through web application vulnerabilities on PortSwigger.<br><br> Core Philosophy: "The best way to understand a complex system is to build it yourself, test its limits, and leave no edge case undocumented."
+<details open>
+<summary><b style="color: #00FF80;">Academic Path</b></summary>
+<br>
+Computer Science student passionate about backend systems, AI solutions, and software architecture.
+</details>
+
+<details>
+<summary><b style="color: #00FF80;">What I Build</b></summary>
+<br>
+Everything from complex Data Structures & Algorithms labs to full-stack web platforms and interactive 3D simulations.
+</details>
+
+<details>
+<summary><b style="color: #00FF80;">What I Break</b></summary>
+<br>
+Actively studying cybersecurity, configuring secure Linux environments, and working through web application vulnerabilities on PortSwigger.
+</details>
+
+<br>
+
+> <b style="color: #00FF80;">Core Philosophy:</b> *“The best way to understand a complex system is to build it yourself, test its limits, and leave no edge case undocumented.”*
+
+
 
 
 ## Socials:
