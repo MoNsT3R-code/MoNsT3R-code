@@ -107,7 +107,7 @@ Actively studying cybersecurity, configuring secure Linux environments, and work
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
 ![TOR](https://img.shields.io/badge/tor-%237E4798.svg?style=for-the-badge&logo=tor-project&logoColor=white)
-![PortSwigger](https://img.shields.io/badge/PortSwigger-Labs-orange?style=for-the-badge&logo=burpsuite&logoColor=white)
+![PortSwigger labs](https://img.shields.io/badge/PortSwigger-Labs-orange?style=for-the-badge&logo=burpsuite&logoColor=white)
 
 # GitHub Stats:
 ![](https://github-readme-stats.shion.dev/api?username=MoNsT3R-code&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
