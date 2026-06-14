@@ -1,7 +1,7 @@
 <div align="center">
 
 <div style="display: flex; align-items: center; justify-content: center; gap: 15px; margin: 20px 0 10px 0;">
-  <img src="MoNsT3R (1).png" alt="MoNsT3R-code Logo" width="320" height="320" style="border-radius: 5px; box-shadow: 0 0 5px rgba(0, 255, 128, 0.4);" />
+  <img src="1781421887543.png" alt="MoNsT3R-code Logo" width="320" height="320" style="border-radius: 5px; box-shadow: 0 0 5px rgba(0, 255, 128, 0.4);" />
 
 </div>
 
