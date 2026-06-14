@@ -80,11 +80,7 @@ Actively studying cybersecurity, configuring secure Linux environments, and work
 
 > <b style="color: #00FF80;">Core Philosophy:</b> *“The best way to understand a complex system is to build it yourself, test its limits, and leave no edge case undocumented.”*
 
-
-
-
-## Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/monst3r12e_24793) 
+---
 
 # Tech Stack:
 
@@ -119,10 +115,11 @@ Actively studying cybersecurity, configuring secure Linux environments, and work
 ![TOR](https://img.shields.io/badge/tor-%237E4798.svg?style=for-the-badge&logo=tor-project&logoColor=white)
 ![PortSwigger labs](https://img.shields.io/badge/PortSwigger-Labs-white?style=for-the-badge&logo=burpsuite&logoColor=white)
 
+---
+
 # GitHub Stats:
 ![](https://github-readme-stats.shion.dev/api?username=MoNsT3R-code&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://streak-stats.demolab.com/?user=MoNsT3R-code&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=MoNsT3R-code&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ---
-[![](https://komarev.com/ghpvc/?username=MoNsT3R-code&icon=2&color=white)](https://visitcount.itsvg.in)
