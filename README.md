@@ -34,7 +34,23 @@
 </p>
 
 </div>
+---
 
+## 🧠 Who Am I
+
+```python
+class MusfiraSehar:
+    def __init__(self):
+        self.role       = "Computer Science Undergrad @ FCCU"
+        self.location   = "Lahore, Pakistan"
+        self.mindset    = "Passionate about backend systems, AI solutions, and software architecture."
+        
+        self.stack      = ["Python", "JavaScript", "Microsoft SQL", "HTML/CSS", "Linux"]
+        self.exploring  = ["AI Integration", "Ethical Hacking", "GSAP", "Tech Startups"]
+        self.platforms  = ["Kali Linux", "Ubuntu", "Windows"]
+        
+        self.fun_fact   = "I build secure architectures by day and host high-profile university functions by night."
+```
 
 
 
