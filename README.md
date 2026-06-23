@@ -115,18 +115,21 @@ Actively studying cybersecurity, configuring secure Linux environments, and work
 
 | | | |
 | :---: | :---: | :---: |
-| ![](https://github-readme-stats.shion.dev/api?username=MoNsT3R-code&theme=dark&hide_border=false&include_all_commits=true&count_private=true) | ![](https://streak-stats.demolab.com/?user=MoNsT3R-code&theme=dark&hide_border=false) | ![](https://github-readme-stats.shion.dev/api/top-langs/?username=MoNsT3R-code&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact) |
+| ![](https://github-readme-stats.shion.dev/api?username=MoNsT3R-code&theme=dark&hide_border=false&include_all_commits=true&count_private=true) | ![](https://streak-stats.demolab.com/?user=MoNsT3R-code&theme=dark&hide_border=false) |
 
 </div>
 
 ---
+---
 
 <div align="center">
 
-# LeetCode Stats:
+# Analytics Dashboard:
 
-<a href="https://leetcode.com/u/monst3r-code/">
-  <img src="https://leetcard.jacoblin.cool/monst3r-code?theme=dark&font=Fira%20Code&ext=activity" alt="LeetCode Stats Card" />
-</a>
+| Top Languages Used | LeetCode Activity |
+| :---: | :---: |
+| <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=MoNsT3R-code&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" height="220" /> | <a href="https://leetcode.com/u/monst3r-code/"><img src="https://leetcard.jacoblin.cool/monst3r-code?theme=dark&font=Fira%20Code&ext=activity" height="220" /></a> |
 
 </div>
+
+---
