@@ -46,7 +46,7 @@ class MusfiraSehar:
         self.mindset    = "Passionate about backend systems, AI solutions, and software architecture."
         
         self.stack      = ["Python", "JavaScript", "Microsoft SQL", "HTML/CSS", "Linux"]
-        self.exploring  = ["AI Integration", "Ethical Hacking", "GSAP", "Tech Startups"]
+        self.exploring  = ["AI Integration", "Ethical Hacking", "LeetCode Grinding", "Tech Startups"]
         self.platforms  = ["Kali Linux", "Ubuntu", "Windows"]
         
         self.fun_fact   = "I build secure architectures by day and host high-profile university functions by night."
@@ -105,6 +105,7 @@ Actively studying cybersecurity, configuring secure Linux environments, and work
 
 ![TOR](https://img.shields.io/badge/tor-%237E4798.svg?style=for-the-badge&logo=tor-project&logoColor=white)
 ![PortSwigger labs](https://img.shields.io/badge/PortSwigger-Labs-white?style=for-the-badge&logo=burpsuite&logoColor=white)
+![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)
 
 ---
 
@@ -119,3 +120,13 @@ Actively studying cybersecurity, configuring secure Linux environments, and work
 </div>
 
 ---
+
+<div align="center">
+
+# LeetCode Stats:
+
+<a href="https://leetcode.com/u/monst3r-code/">
+  <img src="https://leetcard.jacoblin.cool/monst3r-code?theme=dark&font=Fira%20Code&ext=activity" alt="LeetCode Stats Card" />
+</a>
+
+</div>
